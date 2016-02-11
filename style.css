@@ -1,0 +1,78 @@
+body {
+background-color: #acaba8;
+;
+}
+h1 {
+  font-family: 'Poiret One';
+  font-weight: 100;
+  font-size: 45px;
+  text-align: center;
+}
+h2 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: lighter;
+}
+h3 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: lighter;
+}
+p {
+  font-family: 'Dosis', sans-serif;
+  font-weight: lighter;
+}
+ul {
+  font-family: 'Dosis', sans-serif;
+  font-weight: lighter;
+}
+#fontBold  {
+  font-weight: bold;
+}
+#fontReg  {
+  font-weight: normal;
+}
+#logoFont  {
+  text-align: center;
+}
+#fontColor  {
+  color: #443734
+}
+#alignL {
+  float: left;
+}
+.boxes {
+  height: 120px;
+  width: 250px;
+  float: left;
+  text-align: center;
+}
+#box1 {
+  background-color: #443734;
+}
+#box2 {
+  background-color: #585751;
+}
+#box3 {
+  background-color: #a74826;
+}
+#box4 {
+  background-color: #987645;
+}
+#box5 {
+  background-color: #d8a968;
+}
+#box1-1 {
+  background-color: #a29b9a;
+}
+#box2-2 {
+  background-color: #acaba8;
+}
+#box3-3 {
+  text-color: #443734;
+  background-color: #d3a493;
+}
+#box4-4 {
+  background-color: #ccbba2;
+}
+#box5-5 {
+  background-color: #ecd4b4;
+}
