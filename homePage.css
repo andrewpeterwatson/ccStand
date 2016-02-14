@@ -1,0 +1,253 @@
+html {
+  background-color: #e4eff1;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#navHome {
+  text-decoration: underline;
+}
+#plainText {
+  font-family: 'Tulpen One', cursive;
+  font-size: 5em;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+/*#contentPage {
+  margin-top: 30%;
+  margin-left: 50%;
+}*/
+#home {
+  font-family: 'Tulpen One', cursive;
+  font-size: 10em;
+  margin-top: -3%;
+  margin-left: 56%;
+  position: fixed;
+}
+#pat {
+  font-size: 7em;
+  margin-top: -17%;
+  margin-left: 0%;
+  position: fixed;
+  -webkit-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
+}
+#sal {
+  font-size: 5em;
+  margin-top: -8%;
+  margin-left: -1%;
+  position: fixed;
+  -webkit-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
+}
+#cook {
+  font-size: 5em;
+  margin-top: -16%;
+  margin-left: 17%;
+  position: fixed;
+  -webkit-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
+}
+#shack {
+  font-size: 7em;
+  margin-top: -9%;
+  margin-left: 11%;
+  position: fixed;
+  -webkit-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
+
+}
+.navLi {
+  font-size: 3em;
+  font-family: 'Tulpen One', cursive;
+  margin-top: -35%;
+}
+#backdrop {
+  background-color: rgba(350, 65, 45, 0.65);
+  height: 41em;
+  width: 75em;
+  margin: 2em;
+}
+#pikePic {
+  opacity: 0.25;
+  height: 463px;
+  width: 60em;
+  position: fixed;
+}
+h1 {
+  font-family: 'Indie Flower', cursive;
+  display: inline-block;
+
+}
+#logo {
+  list-style: none;
+  position: fixed;
+}
+#aboutContent {
+  border-radius: .4em;
+  background-color: #e4eff1;
+  width: 40em;
+  height: 30em;
+  margin-top: 8%;
+  margin-left: 56%;
+  position: fixed;
+}
+#aboutBack {
+  /*box-shadow: inset 2px 2px 30px 5px;*/
+  background-color: #deb790;
+  border-radius: .4em;
+  height: 40em;
+  width: 60em;
+  margin-top: 17%;
+  margin-left: 47%;
+  /*position: absolute; */
+}
+.navLi {
+  padding: 1.3em;
+  /*display: inline;*/
+  list-style: none;
+  /*border: 1px dashed black;*/
+}
+#navBar {
+  /*width: 30em;*/
+  margin-top: 7%;
+  margin-left: 41%;
+  position: fixed;
+}
+#waterElFront {
+  /*background-color: red;*/
+  height: 800px;
+  width: 800px;
+  margin-top: -35%;
+  margin-left: -39%;
+  position: fixed;
+  background-image: url('file://Macintosh HD/Users/andrewwatson/Desktop/waterEl2.png')
+
+}
+#waterEl2 {
+  /*background-color: red;*/
+  height: 800px;
+  width: 800px;
+  margin-left: -15%;
+  margin-top: 20%;
+  position: fixed;
+  background-image: url('file://Macintosh HD/Users/andrewwatson/Desktop/waterEl2.png')
+}
+#waterEl3 {
+  /*background-color: red;*/
+  height: 800px;
+  width: 800px;
+  margin-left: 7%;
+  margin-top: 20%;
+  position: fixed;
+  background-image: url('file://Macintosh HD/Users/andrewwatson/Desktop/waterEl2.png')
+}
+#waterEl4 {
+  /*background-color: red;*/
+  height: 800px;
+  width: 800px;
+  margin-left: 20%;
+  margin-top: 20%;
+  position: fixed;
+  background-image: url('file://Macintosh HD/Users/andrewwatson/Desktop/waterEl2.png')
+}
+#fish1 {
+  /*background-color: red;*/
+  height: 450px;
+  width: 250px;
+  margin-left: 10%;
+  margin-top: 8%;
+  position: fixed;
+  background-image: url('file://Macintosh HD/Users/andrewwatson/Desktop/fish1.png');
+  -webkit-animation: fishTravel 2s linear infinite;
+  animation-timing-function: cubic-bezier(.65, 1, .55, .10);
+}
+#fish1Wrap {
+  -webkit-animation: fishBounce .5s linear 1;
+  margin-left: -2%;
+}
+@-webkit-keyframes fishTravel {
+  0%   {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100% {
+      -webkit-transform: rotate(-360deg);
+      -ms-transform: rotate(-360deg);
+      transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes fishBounce {
+  0% { -webkit-transform: translateX(15px); }
+  /*50% { -webkit-transform: translateX(50px); }  */
+  100% { -webkit-transform: translateY(0px); }
+}
+#fish2 {
+  /*background-color: red;*/
+  height: 450px;
+  width: 250px;
+  margin-left: 10%;
+  margin-top: 8%;
+  position: fixed;
+  background-image: url('file://Macintosh HD/Users/andrewwatson/Desktop/fish2.png');
+  -webkit-animation: fishTravel2 1.5s linear infinite;
+  animation-timing-function: cubic-bezier(.65, 1, .55, .10);
+}
+#fish2Wrap {
+  -webkit-animation: fishBounce .5s linear 1;
+  margin-left: -2%;
+}
+@-webkit-keyframes fishTravel2 {
+  0%   {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(-0deg);
+      transform: rotate(0deg);
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+
+
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+#waterElFront {
+  -webkit-animation: spin 110s linear infinite;
+  }
+#waterEl2 {
+  -webkit-animation: spin 110s linear infinite;
+  }
+#waterEl3 {
+  -webkit-animation: spin 65s linear infinite;
+  }
+#waterEl4 {
+  -webkit-animation: spin 150s linear infinite;
+  }
+}
