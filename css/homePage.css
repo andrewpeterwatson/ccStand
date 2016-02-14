@@ -5,7 +5,7 @@ a {
   text-decoration: none;
   color: black;
 }
-#navContact {
+#navHome {
   text-decoration: underline;
 }
 #plainText {
@@ -23,53 +23,46 @@ a {
   font-family: 'Tulpen One', cursive;
   font-size: 10em;
   margin-top: -3%;
-  margin-left: 28%;
+  margin-left: 56%;
   position: fixed;
 }
 #pat {
   font-size: 7em;
-  margin-top: -18%;
-  margin-left: 13%;
+  margin-top: -17%;
+  margin-left: 0%;
   position: fixed;
-  -webkit-transform: rotate(25deg);
-  -moz-transform: rotate(25deg);
+  -webkit-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
 }
 #sal {
   font-size: 5em;
-  margin-top: -17%;
-  margin-left: -2%;
+  margin-top: -8%;
+  margin-left: -1%;
   position: fixed;
-  -webkit-transform: rotate(25deg);
-  -moz-transform: rotate(25deg);
+  -webkit-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
 }
 #cook {
   font-size: 5em;
-  margin-top: -7%;
-  margin-left: 20%;
+  margin-top: -16%;
+  margin-left: 17%;
   position: fixed;
-  -webkit-transform: rotate(25deg);
-  -moz-transform: rotate(25deg);
+  -webkit-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
 }
 #shack {
   font-size: 7em;
-  margin-top: -8%;
-  margin-left: 6%;
+  margin-top: -9%;
+  margin-left: 11%;
   position: fixed;
-  -webkit-transform: rotate(25deg);
-  -moz-transform: rotate(25deg);
+  -webkit-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
 
 }
 .navLi {
   font-size: 3em;
   font-family: 'Tulpen One', cursive;
   margin-top: -35%;
-  display: inline-block;
-  padding: .9em;
-  list-style: none;
-}
-img {
-  margin-top: -12%;
-  margin-left: 6%;
 }
 #backdrop {
   background-color: rgba(350, 65, 45, 0.65);
@@ -91,11 +84,6 @@ h1 {
 #logo {
   list-style: none;
   position: fixed;
-  margin-top: 16%;
-  margin-left: 63%;
-}
-#contentPage {
-  margin-left: -29%;
 }
 #aboutContent {
   border-radius: .4em;
@@ -103,7 +91,7 @@ h1 {
   width: 40em;
   height: 30em;
   margin-top: 8%;
-  margin-left: 29%;
+  margin-left: 56%;
   position: fixed;
 }
 #aboutBack {
@@ -112,9 +100,15 @@ h1 {
   border-radius: .4em;
   height: 40em;
   width: 60em;
-  margin-top: 2%;
-  margin-left: 9%;
+  margin-top: 17%;
+  margin-left: 47%;
   /*position: absolute; */
+}
+.navLi {
+  padding: 1.3em;
+  /*display: inline;*/
+  list-style: none;
+  /*border: 1px dashed black;*/
 }
 #navBar {
   /*width: 30em;*/
@@ -129,7 +123,7 @@ h1 {
   margin-top: -35%;
   margin-left: -39%;
   position: fixed;
-  background-image: url('file://Macintosh HD/Users/andrewwatson/Desktop/waterEl2.png')
+  background-image: url('../images/waterEl2.png')
 
 }
 #waterEl2 {
@@ -139,7 +133,7 @@ h1 {
   margin-left: -15%;
   margin-top: 20%;
   position: fixed;
-  background-image: url('file://Macintosh HD/Users/andrewwatson/Desktop/waterEl2.png')
+  background-image: url('../images/waterEl2.png')
 }
 #waterEl3 {
   /*background-color: red;*/
@@ -148,7 +142,7 @@ h1 {
   margin-left: 7%;
   margin-top: 20%;
   position: fixed;
-  background-image: url('file://Macintosh HD/Users/andrewwatson/Desktop/waterEl2.png')
+  background-image: url('../images/waterEl2.png')
 }
 #waterEl4 {
   /*background-color: red;*/
@@ -157,7 +151,7 @@ h1 {
   margin-left: 20%;
   margin-top: 20%;
   position: fixed;
-  background-image: url('file://Macintosh HD/Users/andrewwatson/Desktop/waterEl2.png')
+  background-image: url('../images/waterEl2.png')
 }
 #fish1 {
   /*background-color: red;*/
@@ -166,7 +160,7 @@ h1 {
   margin-left: 10%;
   margin-top: 8%;
   position: fixed;
-  background-image: url('file://Macintosh HD/Users/andrewwatson/Desktop/fish1.png');
+  background-image: url('../images/fish1.png');
   -webkit-animation: fishTravel 2s linear infinite;
   animation-timing-function: cubic-bezier(.65, 1, .55, .10);
 }
@@ -198,7 +192,7 @@ h1 {
   margin-left: 10%;
   margin-top: 8%;
   position: fixed;
-  background-image: url('file://Macintosh HD/Users/andrewwatson/Desktop/fish2.png');
+  background-image: url('../images/fish2.png');
   -webkit-animation: fishTravel2 1.5s linear infinite;
   animation-timing-function: cubic-bezier(.65, 1, .55, .10);
 }
